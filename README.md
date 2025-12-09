@@ -32,6 +32,7 @@ How to get started:
 1. Instal virtual environment tools:
 
 sudo apt update
+
 sudo apt install python3-venv -y
 
 2. Create a virtual environment:

@@ -27,6 +27,21 @@ Dataset Link:
 
 The FER model used in this project is pre-trained on FER-2013 and does not require additional training to run on the Raspberry Pi.
 
+How to get started: 
+
+1. Create a virtual environment
+python3 -m venv emotion-env
+source emotion-env/bin/activate
+
+2. Once inside the environment, install the dependencies in requirements.txt:
+pip install -r requirements.txt
+
+3. Run the script:
+python3 main_emotion_script.py
+
+4. To exit environment:
+deactivate
+
 Implementation notes: 
 
 - PiCamera2 is configured at 640×480 resolution for optimal speed vs. accuracy

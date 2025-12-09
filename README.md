@@ -23,32 +23,41 @@ Dataset used (FER-2013)
 This project utilizes the FER-2013 (Facial Expression Recognition) dataset, a widely used benchmark for emotion classification.
 
 Dataset Link: 
-[https://www.kaggle.com/datasets/msambare/fer2013](url)
+[FER-2013 Dataset (Kaggle)](https://www.kaggle.com/datasets/msambare/fer2013)
 
 The FER model used in this project is pre-trained on FER-2013 and does not require additional training to run on the Raspberry Pi.
 
 How to get started: 
 
-1. Create a virtual environment:
+1. Instal virtual environment tools:
+
+sudo apt update
+sudo apt install python3-venv -y
+
+2. Create a virtual environment:
 
 python3 -m venv emotion-env
+
+3. Activate the environment:
+
 source emotion-env/bin/activate
 
-2. Once inside the environment, install the dependencies in requirements.txt:
-   
+4. Install all project dependencies from requirements.txt:
+
+pip install --upgrade pip
 pip install -r requirements.txt
 
-3. Create the code environment and paste main_emotion_script.py:
+5. Create the code environment and paste main_emotion_script.py:
 
 nano main_emotion_script.py
 
 Press ctrl + O, ENTER, then ctrl + X to close.
 
-4. Run the script:
+6. Run the script:
    
 python3 main_emotion_script.py
 
-5. To exit environment:
+7. To exit environment:
    
 deactivate
 

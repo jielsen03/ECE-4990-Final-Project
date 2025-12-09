@@ -45,6 +45,7 @@ source emotion-env/bin/activate
 4. Install all project dependencies from requirements.txt:
 
 pip install --upgrade pip
+
 pip install -r requirements.txt
 
 5. Create the code environment and paste main_emotion_script.py:

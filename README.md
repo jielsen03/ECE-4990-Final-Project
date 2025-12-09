@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 nano main_emotion_script.py
 
-Press ctrl + O, ENTER, then ctrl + X to close.
+*Press ctrl + O, ENTER, then ctrl + X to close.
 
 **6. Run the script:**
    

@@ -38,11 +38,17 @@ source emotion-env/bin/activate
    
 pip install -r requirements.txt
 
-3. Run the script:
+3. Create the code environment and paste main_emotion_script.py:
+
+nano main_emotion_script.py
+
+Press ctrl + O, ENTER, then ctrl + X to close.
+
+4. Run the script:
    
 python3 main_emotion_script.py
 
-4. To exit environment:
+5. To exit environment:
    
 deactivate
 

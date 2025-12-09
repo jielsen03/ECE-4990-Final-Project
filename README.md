@@ -29,7 +29,7 @@ The FER model used in this project is pre-trained on FER-2013 and does not requi
 
 **How to get started:**
 
-**1. Instal virtual environment tools:**
+**1. Install virtual environment tools:**
 
 sudo apt update
 

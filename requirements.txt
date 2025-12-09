@@ -1,0 +1,11 @@
+opencv-python==4.7.0.72
+numpy
+fer==22.4.0
+mtcnn
+tensorflow==2.12.0
+pillow
+matplotlib
+python-dateutil
+requests
+picamera2
+libcamera
